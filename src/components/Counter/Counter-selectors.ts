@@ -1,4 +1,4 @@
-import { RootState } from "../redux/root-reducer";
+import { RootState } from "../../redux/root-reducer";
 
 export const getCounter = (state: RootState): number => {
   return state.counter.count;

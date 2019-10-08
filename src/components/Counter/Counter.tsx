@@ -3,10 +3,10 @@ import {
   incrementCounter,
   decrementCounter,
   fetchCounter
-} from "../../features/counter/actions";
-import { getCounter } from "../../features/counter/selectors";
+} from "./Counter-actions";
+import { getCounter } from "./Counter-selectors";
 import { connect } from "react-redux";
-import { RootState } from "../../features/redux/root-reducer";
+import { RootState } from "../../redux/root-reducer";
 
 interface StateProps {
   count: number;

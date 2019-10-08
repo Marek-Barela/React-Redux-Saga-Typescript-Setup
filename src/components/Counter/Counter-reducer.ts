@@ -1,9 +1,9 @@
-import { RootAction } from "../redux/root-actions";
+import { RootAction } from "../../redux/root-actions";
 import {
   incrementCounter,
   decrementCounter,
   fetchCounterRequest
-} from "./actions";
+} from "./Counter-actions";
 import { getType } from "typesafe-actions";
 
 export type CounterState = {

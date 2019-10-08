@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import { RootAction } from "./root-actions";
-import counter from "../counter/reducer";
+import counter from "../components/Counter/Counter-reducer";
 
 const reducerMap = {
   counter

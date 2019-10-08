@@ -1,4 +1,4 @@
-import { SwapiPeopleResponse } from "./model";
+import { SwapiPeopleResponse } from "./Counter-model";
 import axios from "axios";
 
 export const getCounterFromSwapi = (): Promise<SwapiPeopleResponse> => {

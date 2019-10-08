@@ -1,6 +1,6 @@
 import { Dispatch as ReduxDispatch } from "redux";
 import { ActionType } from "typesafe-actions";
-import * as counter from "../counter/actions";
+import * as counter from "../components/Counter/Counter-actions";
 
 export const actions = {
   counter
